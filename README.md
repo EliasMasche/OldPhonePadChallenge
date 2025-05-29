@@ -50,7 +50,7 @@ The project includes unit tests using `MSUnit` that are part of `Microsoft.NET.T
 
 Download locally with `git clone` or download the source code of the repo manually
 ```
-git clone https://
+git clone https://github.com/EliasMasche/OldPhonePadChallenge.git
 ```
 
 Run in a terminal
