@@ -45,10 +45,9 @@ public class PhonePad
             var actualChar = input[i];
             if (actualChar.Equals('#'))
                 break;
-            if (input[i + 1].Equals('*'))
+            if (input[i].Equals('*'))
             {
-                input = input.Remove(i, 2);
-                continue;
+                count = 0;
             }
             if (actualChar.Equals(' ') || !actualChar.Equals(lastChar))
             {
